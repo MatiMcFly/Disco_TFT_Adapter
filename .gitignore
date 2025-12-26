@@ -4,6 +4,7 @@
 *.kicad_sch-bak
 *.fp-info-cache
 *.lck
+fp-info-cache
 
 # Output files (optional - usually better to regenerate them)
 /plots/
