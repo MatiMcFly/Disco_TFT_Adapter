@@ -798,7 +798,7 @@
 		(symbol "QTH-030-02-L-D-A_1_1"
 			(rectangle
 				(start 5.08 2.54)
-				(end 17.78 -76.2)
+				(end 17.78 -80.01)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -1340,6 +1340,78 @@
 					)
 				)
 				(number "30"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 7.62 -82.55 90)
+				(length 2.54)
+				(name "M1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "61"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 10.16 -82.55 90)
+				(length 2.54)
+				(name "M2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "62"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 12.7 -82.55 90)
+				(length 2.54)
+				(name "M3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "63"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 15.24 -82.55 90)
+				(length 2.54)
+				(name "M4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "64"
 					(effects
 						(font
 							(size 1.27 1.27)
