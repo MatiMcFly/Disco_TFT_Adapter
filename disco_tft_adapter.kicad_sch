@@ -430,23 +430,27 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Mechanical:MountingHole"
+		(symbol "Mechanical:MountingHole_Pad"
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 1.016)
+				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom no)
 			(on_board yes)
 			(property "Reference" "H"
-				(at 0 5.08 0)
+				(at 0 6.35 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "MountingHole"
-				(at 0 3.175 0)
+			(property "Value" "MountingHole_Pad"
+				(at 0 4.445 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -471,7 +475,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Mounting Hole without connection"
+			(property "Description" "Mounting Hole with connection"
 				(at 0 0 0)
 				(effects
 					(font
@@ -489,7 +493,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "MountingHole*"
+			(property "ki_fp_filters" "MountingHole*Pad*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -498,9 +502,9 @@
 					(hide yes)
 				)
 			)
-			(symbol "MountingHole_0_1"
+			(symbol "MountingHole_Pad_0_1"
 				(circle
-					(center 0 0)
+					(center 0 1.27)
 					(radius 1.27)
 					(stroke
 						(width 1.27)
@@ -508,6 +512,26 @@
 					)
 					(fill
 						(type none)
+					)
+				)
+			)
+			(symbol "MountingHole_Pad_1_1"
+				(pin input line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
 					)
 				)
 			)
@@ -3316,6 +3340,12 @@
 		(uuid "321fc13c-1256-4c03-a197-e46d7d05b270")
 	)
 	(junction
+		(at 248.92 34.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3bffc5ea-201d-4cfa-81cf-5c24de397592")
+	)
+	(junction
 		(at 52.07 113.03)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3392,6 +3422,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "df5f9e7c-9e16-41d5-a48b-56a2b23f0a6a")
+	)
+	(junction
+		(at 248.92 53.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e124af8e-80e8-4855-8656-4a0cdf2a3ca7")
 	)
 	(junction
 		(at 132.08 36.83)
@@ -3713,6 +3749,16 @@
 	)
 	(wire
 		(pts
+			(xy 173.99 50.8) (xy 186.69 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2840c583-7f54-49ae-a0e5-a6b7393841cf")
+	)
+	(wire
+		(pts
 			(xy 50.8 113.03) (xy 50.8 114.3)
 		)
 		(stroke
@@ -3773,7 +3819,7 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 34.29) (xy 251.46 34.29)
+			(xy 241.3 34.29) (xy 248.92 34.29)
 		)
 		(stroke
 			(width 0)
@@ -3850,6 +3896,16 @@
 			(type default)
 		)
 		(uuid "4fca26ce-d926-4802-b78f-0574bc77c40f")
+	)
+	(wire
+		(pts
+			(xy 248.92 34.29) (xy 251.46 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "569d18ca-478e-4b2f-a223-ce9aed26ecc1")
 	)
 	(wire
 		(pts
@@ -4083,6 +4139,16 @@
 	)
 	(wire
 		(pts
+			(xy 248.92 33.02) (xy 248.92 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f281faa-1da3-4b2d-9e49-88c1d603ca11")
+	)
+	(wire
+		(pts
 			(xy 36.83 69.85) (xy 39.37 69.85)
 		)
 		(stroke
@@ -4243,6 +4309,16 @@
 	)
 	(wire
 		(pts
+			(xy 248.92 52.07) (xy 248.92 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9d8b59b-6110-472b-a068-61493b50ab2f")
+	)
+	(wire
+		(pts
 			(xy 36.83 36.83) (xy 39.37 36.83)
 		)
 		(stroke
@@ -4253,7 +4329,7 @@
 	)
 	(wire
 		(pts
-			(xy 229.87 53.34) (xy 251.46 53.34)
+			(xy 229.87 53.34) (xy 248.92 53.34)
 		)
 		(stroke
 			(width 0)
@@ -4323,6 +4399,16 @@
 	)
 	(wire
 		(pts
+			(xy 223.52 33.02) (xy 223.52 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ccc76402-eb96-4bf5-8b21-20972d9b880e")
+	)
+	(wire
+		(pts
 			(xy 229.87 66.04) (xy 229.87 63.5)
 		)
 		(stroke
@@ -4373,6 +4459,16 @@
 	)
 	(wire
 		(pts
+			(xy 248.92 53.34) (xy 251.46 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d7e10777-e116-4c10-bb00-fee37f4df104")
+	)
+	(wire
+		(pts
 			(xy 135.89 102.87) (xy 135.89 100.33)
 		)
 		(stroke
@@ -4390,6 +4486,16 @@
 			(type default)
 		)
 		(uuid "d9e218a2-aba4-40f0-a360-b20eb8348a98")
+	)
+	(wire
+		(pts
+			(xy 173.99 54.61) (xy 173.99 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dbbe22ab-091a-424d-b906-aa405628f574")
 	)
 	(wire
 		(pts
@@ -4841,17 +4947,20 @@
 		)
 		(uuid "fad9e2a7-813a-456c-bbab-69058298cea9")
 	)
-	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 104.14 153.67 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "058e6dea-80c7-4ecd-872e-c89aeec190e3")
-		(property "Reference" "H3"
-			(at 106.68 152.4 0)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 223.52 33.02 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "78fd57c9-c409-4fe7-99d0-50930846953f")
+		(property "Netclass" "Power"
+			(at 224.2185 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4859,48 +4968,74 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MountingHole"
-			(at 106.68 154.9399 0)
+		(property "Component Class" ""
+			(at -59.69 3.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 248.92 33.02 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f7716e6d-1c56-44da-b294-ac39c510f9eb")
+		(property "Netclass" "Power"
+			(at 249.6185 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_4.5mm_Pad_TopBottom"
-			(at 104.14 153.67 0)
+		(property "Component Class" ""
+			(at -34.29 3.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 248.92 52.07 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fd9d37e1-2f3e-4c1c-a4be-7dee091eca45")
+		(property "Netclass" "Power"
+			(at 249.6185 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
+				(justify left)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 104.14 153.67 0)
+		(property "Component Class" ""
+			(at -34.29 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole without connection"
-			(at 104.14 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "disco_tft_adapter"
-				(path "/7336f90d-24da-413c-bf1f-0d03d350b7a0"
-					(reference "H3")
-					(unit 1)
+					(italic yes)
 				)
 			)
 		)
@@ -4915,7 +5050,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "065c9bf8-e293-4647-869c-1e9426cb3c77")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR016"
 			(at 76.2 162.56 0)
 			(effects
 				(font
@@ -4965,7 +5100,7 @@
 		(instances
 			(project "disco_tft_adapter"
 				(path "/7336f90d-24da-413c-bf1f-0d03d350b7a0"
-					(reference "#PWR026")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -4981,7 +5116,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0c7f2321-f833-40f8-9c4d-3b6405aafaa5")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR03"
 			(at 25.4 172.72 0)
 			(effects
 				(font
@@ -5031,7 +5166,7 @@
 		(instances
 			(project "disco_tft_adapter"
 				(path "/7336f90d-24da-413c-bf1f-0d03d350b7a0"
-					(reference "#PWR020")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -5047,7 +5182,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0d2eca9c-2d19-459b-8d69-9ff0757a2632")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR011"
 			(at 39.37 172.72 0)
 			(effects
 				(font
@@ -5097,7 +5232,7 @@
 		(instances
 			(project "disco_tft_adapter"
 				(path "/7336f90d-24da-413c-bf1f-0d03d350b7a0"
-					(reference "#PWR021")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -5113,7 +5248,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0d67d61e-c99e-485e-bad1-a596d370c5ae")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR024"
 			(at 132.08 29.21 0)
 			(effects
 				(font
@@ -5163,7 +5298,73 @@
 		(instances
 			(project "disco_tft_adapter"
 				(path "/7336f90d-24da-413c-bf1f-0d03d350b7a0"
-					(reference "#PWR012")
+					(reference "#PWR024")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 113.03 151.13 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1123e151-fd21-4a4e-8fd2-d98e2fed1c7b")
+		(property "Reference" "#PWR021"
+			(at 113.03 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 113.03 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 113.03 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 113.03 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 113.03 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a31346bd-ac90-40bd-87da-ba1ecd456141")
+		)
+		(instances
+			(project "disco_tft_adapter"
+				(path "/7336f90d-24da-413c-bf1f-0d03d350b7a0"
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -5179,7 +5380,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "16074cbd-55c8-4ca7-bfa0-c239b7c878ff")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR08"
 			(at 33.02 95.25 0)
 			(effects
 				(font
@@ -5230,7 +5431,7 @@
 		(instances
 			(project "disco_tft_adapter"
 				(path "/7336f90d-24da-413c-bf1f-0d03d350b7a0"
-					(reference "#PWR06")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -5526,7 +5727,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1e25ddf1-9169-41e4-9294-87421ba4320d")
-		(property "Reference" "C6"
+		(property "Reference" "C7"
 			(at 245.11 38.0999 0)
 			(effects
 				(font
@@ -5580,7 +5781,7 @@
 		(instances
 			(project "disco_tft_adapter"
 				(path "/7336f90d-24da-413c-bf1f-0d03d350b7a0"
-					(reference "C6")
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -5596,7 +5797,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2166affe-6867-47f4-be4b-7974f9b0f3dc")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR025"
 			(at 135.89 100.33 0)
 			(effects
 				(font
@@ -5646,7 +5847,7 @@
 		(instances
 			(project "disco_tft_adapter"
 				(path "/7336f90d-24da-413c-bf1f-0d03d350b7a0"
-					(reference "#PWR013")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -5662,7 +5863,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2324ae2f-b20c-4590-809d-1c59c5b4be80")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR030"
 			(at 229.87 72.39 0)
 			(effects
 				(font
@@ -5712,7 +5913,7 @@
 		(instances
 			(project "disco_tft_adapter"
 				(path "/7336f90d-24da-413c-bf1f-0d03d350b7a0"
-					(reference "#PWR017")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -5796,7 +5997,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "25a0b9b5-4d49-4789-857b-1106c24dba06")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR029"
 			(at 223.52 72.39 0)
 			(effects
 				(font
@@ -5846,7 +6047,7 @@
 		(instances
 			(project "disco_tft_adapter"
 				(path "/7336f90d-24da-413c-bf1f-0d03d350b7a0"
-					(reference "#PWR016")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -5862,7 +6063,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "291d159a-6529-4055-b1ab-652848c62059")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR012"
 			(at 50.8 120.65 0)
 			(effects
 				(font
@@ -5912,7 +6113,7 @@
 		(instances
 			(project "disco_tft_adapter"
 				(path "/7336f90d-24da-413c-bf1f-0d03d350b7a0"
-					(reference "#PWR08")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -5928,7 +6129,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2a381809-72b4-4364-817a-405e0bbc4ef8")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR017"
 			(at 76.2 172.72 0)
 			(effects
 				(font
@@ -5978,23 +6179,24 @@
 		(instances
 			(project "disco_tft_adapter"
 				(path "/7336f90d-24da-413c-bf1f-0d03d350b7a0"
-					(reference "#PWR023")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 104.14 147.32 0)
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 104.14 162.56 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
-		(uuid "2afffdf9-2b58-45c7-a6f3-4c4264c0d9ea")
-		(property "Reference" "H1"
-			(at 106.68 146.05 0)
+		(fields_autoplaced yes)
+		(uuid "2b594bac-9e54-4323-bb0e-4c37f0d9116f")
+		(property "Reference" "H2"
+			(at 106.68 160.0199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6002,8 +6204,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MountingHole"
-			(at 106.68 148.5899 0)
+		(property "Value" "MountingHole_Pad"
+			(at 106.68 162.5599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6013,7 +6215,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_4.5mm_Pad_TopBottom"
-			(at 104.14 147.32 0)
+			(at 104.14 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6022,7 +6224,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 104.14 147.32 0)
+			(at 104.14 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6030,19 +6232,22 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Mounting Hole without connection"
-			(at 104.14 147.32 0)
+		(property "Description" "Mounting Hole with connection"
+			(at 104.14 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
+		)
+		(pin "1"
+			(uuid "8fea4161-5e1c-4af6-8dfe-3b55bb05c8ea")
 		)
 		(instances
-			(project ""
+			(project "disco_tft_adapter"
 				(path "/7336f90d-24da-413c-bf1f-0d03d350b7a0"
-					(reference "H1")
+					(reference "H2")
 					(unit 1)
 				)
 			)
@@ -6113,6 +6318,72 @@
 			(project "disco_tft_adapter"
 				(path "/7336f90d-24da-413c-bf1f-0d03d350b7a0"
 					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 113.03 165.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "43b3a259-6fde-490e-868f-bda1fcdbfdb0")
+		(property "Reference" "#PWR022"
+			(at 113.03 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 113.03 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 113.03 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 113.03 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 113.03 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "53ae3226-e01c-4b95-8590-2c36cc9c1a5c")
+		)
+		(instances
+			(project "disco_tft_adapter"
+				(path "/7336f90d-24da-413c-bf1f-0d03d350b7a0"
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -6198,7 +6469,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4718c719-7941-4544-86f2-054ba7f7b868")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR06"
 			(at 33.02 59.69 0)
 			(effects
 				(font
@@ -6249,7 +6520,7 @@
 		(instances
 			(project "disco_tft_adapter"
 				(path "/7336f90d-24da-413c-bf1f-0d03d350b7a0"
-					(reference "#PWR04")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -6265,7 +6536,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4b8c05e2-309e-4607-bdde-4806de2d37b4")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR023"
 			(at 123.19 113.03 0)
 			(effects
 				(font
@@ -6315,7 +6586,75 @@
 		(instances
 			(project "disco_tft_adapter"
 				(path "/7336f90d-24da-413c-bf1f-0d03d350b7a0"
-					(reference "#PWR011")
+					(reference "#PWR023")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 113.03 148.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "58bb1a8f-0b53-442b-94fe-3e1385b5947b")
+		(property "Reference" "H3"
+			(at 115.57 146.0499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 115.57 148.5899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_4.5mm_Pad_TopBottom"
+			(at 113.03 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 113.03 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 113.03 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b6b12494-6040-4a63-b2f1-a298098d6d90")
+		)
+		(instances
+			(project "disco_tft_adapter"
+				(path "/7336f90d-24da-413c-bf1f-0d03d350b7a0"
+					(reference "H3")
 					(unit 1)
 				)
 			)
@@ -6331,7 +6670,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5acfc8aa-1c9a-4c31-aca8-440f0b584223")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR02"
 			(at 25.4 162.56 0)
 			(effects
 				(font
@@ -6381,7 +6720,7 @@
 		(instances
 			(project "disco_tft_adapter"
 				(path "/7336f90d-24da-413c-bf1f-0d03d350b7a0"
-					(reference "#PWR019")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -6397,7 +6736,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5ddf77f2-6ee4-432a-bca1-b44e8d5d2fe6")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR09"
 			(at 33.02 100.33 0)
 			(effects
 				(font
@@ -6448,7 +6787,7 @@
 		(instances
 			(project "disco_tft_adapter"
 				(path "/7336f90d-24da-413c-bf1f-0d03d350b7a0"
-					(reference "#PWR07")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -6761,6 +7100,212 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 173.99 58.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "60161cb1-eed5-4fb6-86c0-021dd46ef240")
+		(property "Reference" "C5"
+			(at 177.8 57.1499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 177.8 59.6899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+			(at 174.9552 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 173.99 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 173.99 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "dcfe1fd2-b8f7-425e-a3ad-8cce62b5ee38")
+		)
+		(pin "1"
+			(uuid "fa69df4b-5cc5-4f55-a9e6-677ac7d9af0d")
+		)
+		(instances
+			(project "disco_tft_adapter"
+				(path "/7336f90d-24da-413c-bf1f-0d03d350b7a0"
+					(reference "C5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 113.03 162.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "71f687ce-2251-40b2-89f1-a37b514782bc")
+		(property "Reference" "H4"
+			(at 115.57 160.0199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 115.57 162.5599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_4.5mm_Pad_TopBottom"
+			(at 113.03 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 113.03 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 113.03 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "615cf050-e8cd-4822-adca-f22af4be1fa1")
+		)
+		(instances
+			(project "disco_tft_adapter"
+				(path "/7336f90d-24da-413c-bf1f-0d03d350b7a0"
+					(reference "H4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 104.14 148.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "73cc61e2-1bd8-4a72-bd65-25a83ab92dad")
+		(property "Reference" "H1"
+			(at 106.68 146.0499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 106.68 148.5899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_4.5mm_Pad_TopBottom"
+			(at 104.14 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 104.14 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 104.14 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "45a277b4-9a71-446f-b3cb-b58380421a02")
+		)
+		(instances
+			(project ""
+				(path "/7336f90d-24da-413c-bf1f-0d03d350b7a0"
+					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 39.37 44.45 270)
 		(unit 1)
@@ -6770,7 +7315,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "745adf76-2f4a-41f1-9202-f578f901e81f")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR05"
 			(at 33.02 44.45 0)
 			(effects
 				(font
@@ -6821,7 +7366,7 @@
 		(instances
 			(project ""
 				(path "/7336f90d-24da-413c-bf1f-0d03d350b7a0"
-					(reference "#PWR03")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -6837,7 +7382,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "79fd09e8-1ed9-47d3-8ee2-ab9dfb641dbf")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR014"
 			(at 62.23 172.72 0)
 			(effects
 				(font
@@ -6887,7 +7432,73 @@
 		(instances
 			(project "disco_tft_adapter"
 				(path "/7336f90d-24da-413c-bf1f-0d03d350b7a0"
-					(reference "#PWR022")
+					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 104.14 151.13 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7a1332af-390d-4d64-94c9-c0a3678e2264")
+		(property "Reference" "#PWR019"
+			(at 104.14 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 104.14 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 104.14 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 104.14 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 104.14 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c2c9787d-a74e-4d0a-9a2c-263b4692ed71")
+		)
+		(instances
+			(project ""
+				(path "/7336f90d-24da-413c-bf1f-0d03d350b7a0"
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -6903,7 +7514,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "92190d8f-586e-47b4-b6a3-3ccedcc0d476")
-		(property "Reference" "C5"
+		(property "Reference" "C6"
 			(at 190.5 57.1499 0)
 			(effects
 				(font
@@ -6957,7 +7568,7 @@
 		(instances
 			(project ""
 				(path "/7336f90d-24da-413c-bf1f-0d03d350b7a0"
-					(reference "C5")
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -6973,7 +7584,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "93e10345-e49f-48b0-9c47-a1bbefee8435")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR013"
 			(at 62.23 162.56 0)
 			(effects
 				(font
@@ -7023,7 +7634,7 @@
 		(instances
 			(project "disco_tft_adapter"
 				(path "/7336f90d-24da-413c-bf1f-0d03d350b7a0"
-					(reference "#PWR025")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -7105,7 +7716,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a23f1014-d772-45d6-825c-6836b2474d50")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR010"
 			(at 39.37 162.56 0)
 			(effects
 				(font
@@ -7155,7 +7766,7 @@
 		(instances
 			(project "disco_tft_adapter"
 				(path "/7336f90d-24da-413c-bf1f-0d03d350b7a0"
-					(reference "#PWR024")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -7171,7 +7782,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a4daca27-a306-4c6b-bfa1-21417f6f18dc")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR018"
 			(at 95.25 39.37 0)
 			(effects
 				(font
@@ -7221,7 +7832,7 @@
 		(instances
 			(project ""
 				(path "/7336f90d-24da-413c-bf1f-0d03d350b7a0"
-					(reference "#PWR010")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -7237,7 +7848,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a7566c61-1c18-42fb-ac0c-e8a7413b95d4")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR027"
 			(at 186.69 49.53 0)
 			(effects
 				(font
@@ -7287,7 +7898,7 @@
 		(instances
 			(project "disco_tft_adapter"
 				(path "/7336f90d-24da-413c-bf1f-0d03d350b7a0"
-					(reference "#PWR014")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -7373,7 +7984,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "af1b3df3-cebe-4c1a-858e-4060699da2b2")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR015"
 			(at 67.31 39.37 0)
 			(effects
 				(font
@@ -7423,7 +8034,7 @@
 		(instances
 			(project ""
 				(path "/7336f90d-24da-413c-bf1f-0d03d350b7a0"
-					(reference "#PWR09")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -7509,7 +8120,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b3d4a44e-7005-4835-9066-47ae48ab7b6b")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR04"
 			(at 33.02 29.21 0)
 			(effects
 				(font
@@ -7560,7 +8171,73 @@
 		(instances
 			(project ""
 				(path "/7336f90d-24da-413c-bf1f-0d03d350b7a0"
-					(reference "#PWR02")
+					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 104.14 165.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b60ecee1-f436-4ea8-b8e8-20d5bc262ad2")
+		(property "Reference" "#PWR020"
+			(at 104.14 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 104.14 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 104.14 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 104.14 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 104.14 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "43686fa9-e09f-40b8-a892-6cf65c39a979")
+		)
+		(instances
+			(project "disco_tft_adapter"
+				(path "/7336f90d-24da-413c-bf1f-0d03d350b7a0"
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -7576,7 +8253,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b8ac8e7d-fa72-4e1b-bbcd-7beb18be94ee")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR028"
 			(at 186.69 68.58 0)
 			(effects
 				(font
@@ -7626,7 +8303,73 @@
 		(instances
 			(project "disco_tft_adapter"
 				(path "/7336f90d-24da-413c-bf1f-0d03d350b7a0"
-					(reference "#PWR015")
+					(reference "#PWR028")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 173.99 62.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bc86847c-2fcc-4e3f-887e-dc985ac9f074")
+		(property "Reference" "#PWR026"
+			(at 173.99 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 173.99 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 173.99 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 173.99 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 173.99 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1fbaa83e-4e7f-483a-a021-87897345ebe9")
+		)
+		(instances
+			(project "disco_tft_adapter"
+				(path "/7336f90d-24da-413c-bf1f-0d03d350b7a0"
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -7823,70 +8566,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 111.76 147.32 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "dd90d12f-b2a2-4670-8e45-cbb2fe1bc18a")
-		(property "Reference" "H2"
-			(at 114.3 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole"
-			(at 114.3 148.5899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_4.5mm_Pad_TopBottom"
-			(at 111.76 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 111.76 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole without connection"
-			(at 111.76 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "disco_tft_adapter"
-				(path "/7336f90d-24da-413c-bf1f-0d03d350b7a0"
-					(reference "H2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "aa_prj:TPS61169DCKR")
 		(at 222.25 48.26 0)
 		(mirror y)
@@ -8016,70 +8695,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 111.76 153.67 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "e67727f5-4aa4-4904-b4d7-4a8a23e2cf8c")
-		(property "Reference" "H4"
-			(at 114.3 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole"
-			(at 114.3 154.9399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_4.5mm_Pad_TopBottom"
-			(at 111.76 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 111.76 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole without connection"
-			(at 111.76 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "disco_tft_adapter"
-				(path "/7336f90d-24da-413c-bf1f-0d03d350b7a0"
-					(reference "H4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 39.37 74.93 270)
 		(unit 1)
@@ -8089,7 +8704,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "eb1bbaa6-de2f-4888-baf3-e09abfe0c938")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR07"
 			(at 33.02 74.93 0)
 			(effects
 				(font
@@ -8140,7 +8755,7 @@
 		(instances
 			(project "disco_tft_adapter"
 				(path "/7336f90d-24da-413c-bf1f-0d03d350b7a0"
-					(reference "#PWR05")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -8156,7 +8771,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ec3c6517-8669-4941-9c8c-f580bd40dc69")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR031"
 			(at 241.3 49.53 0)
 			(effects
 				(font
@@ -8206,7 +8821,7 @@
 		(instances
 			(project "disco_tft_adapter"
 				(path "/7336f90d-24da-413c-bf1f-0d03d350b7a0"
-					(reference "#PWR018")
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
