@@ -136,9 +136,9 @@
 			(subtractmaskfromsilk no)
 			(outputformat 1)
 			(mirror no)
-			(drillshape 1)
+			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "")
+			(outputdirectory "gerbers/")
 		)
 	)
 	(net 0 "")
@@ -337,7 +337,7 @@
 		(descr "Capacitor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
 		(property "Reference" "C2"
-			(at 1.7 -0.4 90)
+			(at 2.3 0.1 180)
 			(layer "F.SilkS")
 			(uuid "c57e8b68-3e0a-4e7a-9842-17d0b9d9ad3d")
 			(effects
@@ -378,6 +378,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser Part Number" "603-C0603MRY5V9BB104"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "49943904-4f9f-434d-b424-174193c95bfd")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -530,7 +543,7 @@
 		(descr "Capacitor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
 		(property "Reference" "C5"
-			(at 0.1 1.48 90)
+			(at 0.7 1.62 180)
 			(layer "F.SilkS")
 			(uuid "b37ac907-e4e7-4ca5-8859-56155d468053")
 			(effects
@@ -571,6 +584,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser Part Number" "603-C0603MRY5V9BB104"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "de7f1fc5-2a1d-49bc-85d4-900e9e0dcb58")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -723,7 +749,7 @@
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
 		(property "Reference" "C6"
-			(at 0 -1.68 90)
+			(at 0.42 -2 180)
 			(layer "F.SilkS")
 			(uuid "946d36b9-a355-4837-a090-cdfb18408ca1")
 			(effects
@@ -764,6 +790,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser Part Number" "581-08055D475KAT2A"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "47d66d94-e7ce-40ae-aa49-6e81e617fce1")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -1664,6 +1703,19 @@
 				)
 			)
 		)
+		(property "Mouser Part Number" "71-CRCW12065R10FKEA"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7ef4ab81-a8bf-4e78-8d05-9d74ac18ba32")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/f4aa5fd0-32d3-4215-a41d-e8b0bdbad900")
 		(sheetname "/")
@@ -1818,7 +1870,7 @@
 		(descr "SC70-5")
 		(tags "Power Supply")
 		(property "Reference" "PS1"
-			(at 0.07 -2.25 90)
+			(at -1.35 3.35 180)
 			(layer "F.SilkS")
 			(uuid "88f043cf-1bc3-4581-afe3-031b1c7a07cf")
 			(effects
@@ -2281,6 +2333,19 @@
 				)
 			)
 		)
+		(property "Mouser Part Number" "581-08055D475KAT2A"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4e1c48d0-10cd-4a76-ad1a-ce73c51f8c18")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/2caa4c47-6f4c-4d58-a311-496bed49af17")
 		(sheetname "/")
@@ -2435,7 +2500,7 @@
 		(descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R1"
-			(at -1.7 -0.1 90)
+			(at -1.5 1.02 180)
 			(layer "F.SilkS")
 			(uuid "b173b626-5631-46dc-8104-9981ce93d5e3")
 			(effects
@@ -2476,6 +2541,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser Part Number" "71-RCA06030000ZSEASR"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "85987c89-0aa8-4d8b-ad21-974b7874c1e4")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -2753,7 +2831,7 @@
 		(descr "Capacitor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
 		(property "Reference" "C3"
-			(at 2.1 0 90)
+			(at 1.4625 0.6 180)
 			(layer "F.SilkS")
 			(uuid "eaf321e6-07d8-4fdf-a5b0-c99d4fc97ec9")
 			(effects
@@ -2794,6 +2872,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser Part Number" "603-C0603MRY5V9BB104"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f3a6ebb1-5ece-49a5-bbea-0f49a85a896f")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -3793,7 +3884,7 @@
 		(descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R2"
-			(at 0 -1.05 90)
+			(at -1.02 -1.6 180)
 			(layer "F.SilkS")
 			(uuid "57703e7e-c237-416a-9b93-73151c7c4780")
 			(effects
@@ -3834,6 +3925,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser Part Number" "71-RCA06030000ZSEASR"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "50977e8c-a56a-44eb-9ec7-d89b2a687a5d")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -3986,7 +4090,7 @@
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
 		(property "Reference" "C4"
-			(at 3.1 -0.1 90)
+			(at 1.5625 -2.4 180)
 			(layer "F.SilkS")
 			(uuid "07f52a2e-7542-4f8d-88e1-042cb4b4b2fc")
 			(effects
@@ -4027,6 +4131,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser Part Number" "581-08055D475KAT2A"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3852603c-b620-4d6a-9c95-6d089e4c70cf")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -4185,7 +4302,7 @@
 		(descr "Inductor, Coilcraft, 1515SQ-47N, 4.06x3.56x3.73mm, (https://www.coilcraft.com/getmedia/a4eed406-a97e-4630-9d8e-771bb470867f/1515sq.pdf), generated with kicad-footprint-generator gen_inductor.py")
 		(tags "sq")
 		(property "Reference" "L1"
-			(at 0.02 3.2 90)
+			(at -1.8 4.4 180)
 			(layer "F.SilkS")
 			(uuid "e8e25e81-adac-458c-8304-6534307a8f19")
 			(effects
@@ -4226,6 +4343,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser Part Number" "994-LPS4018-103MRC"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d0d6cc5e-b1ce-43ff-a1f9-1c25b43e64f5")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -4439,7 +4569,7 @@
 		(descr "Capacitor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
 		(property "Reference" "C8"
-			(at 1.6075 0.4 180)
+			(at -0.1075 1.4 180)
 			(layer "F.SilkS")
 			(uuid "64a4a15a-3777-42d2-a409-14e0b2ff001b")
 			(effects
@@ -4480,6 +4610,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser Part Number" "603-C0603MRY5V9BB104"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "12451752-3000-4662-a3df-e9e5c72fe3b7")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -4632,7 +4775,7 @@
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
 		(property "Reference" "C7"
-			(at -2.92 0.1 90)
+			(at -2.88 0 180)
 			(layer "F.SilkS")
 			(uuid "8f7ad4de-9d5c-4193-8ff8-405a2b9d138d")
 			(effects
@@ -4673,6 +4816,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser Part Number" "603-CC805KKX5R9BB225"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fdf5bb05-f757-4c85-8325-a31e1f60b906")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -4831,7 +4987,7 @@
 		(descr "Capacitor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
 		(property "Reference" "C1"
-			(at 1.7 0.5 90)
+			(at 2.1 0 180)
 			(layer "F.SilkS")
 			(uuid "41f68521-dfb6-495e-a56d-c7b4c5a6d4e2")
 			(effects
@@ -4872,6 +5028,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser Part Number" "603-C0603MRY5V9BB104"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2e52b248-4f72-43d4-b5f5-371dfbe9d438")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -5024,13 +5193,13 @@
 		(descr "SOD-523 CASE 502")
 		(tags "Schottky Diode")
 		(property "Reference" "D1"
-			(at -2.78 -0.7 90)
+			(at -2.28 -1.5 180)
 			(layer "F.SilkS")
 			(uuid "ad9bbcf2-cefa-43ee-adc9-0618d8d2924d")
 			(effects
 				(font
-					(size 1.27 1.27)
-					(thickness 0.254)
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
