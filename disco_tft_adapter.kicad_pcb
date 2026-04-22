@@ -7898,6 +7898,162 @@
 		(layer "Edge.Cuts")
 		(uuid "745a3967-7544-4ed5-b59e-6eada2fdf478")
 	)
+	(gr_text "INT"
+		(at 71.9 100.7 0)
+		(layer "F.SilkS")
+		(uuid "f7d54076-4e0a-4e4a-8522-6aa1486b7912")
+		(effects
+			(font
+				(size 0.8 1)
+				(thickness 0.2)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "PWM"
+		(at 80.1 113.5 0)
+		(layer "F.SilkS")
+		(uuid "b8934903-1163-41b0-be44-18bf8f9ad439")
+		(effects
+			(font
+				(size 0.8 1)
+				(thickness 0.2)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "SDA"
+		(at 81 103 0)
+		(layer "F.SilkS")
+		(uuid "432a907e-4cdc-4804-9d2a-41d444663913")
+		(effects
+			(font
+				(size 0.8 1)
+				(thickness 0.2)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "D0P"
+		(at 82 112.2 0)
+		(layer "F.SilkS")
+		(uuid "18d62189-75b4-4434-ac9c-6ac85f825877")
+		(effects
+			(font
+				(size 0.8 1)
+				(thickness 0.2)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "SCL"
+		(at 83.5 101.4 0)
+		(layer "F.SilkS")
+		(uuid "18244c8b-6256-4a18-9197-5ae8dc13c17b")
+		(effects
+			(font
+				(size 0.8 1)
+				(thickness 0.2)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "D0N"
+		(at 86.2 114.3 0)
+		(layer "F.SilkS")
+		(uuid "0d41355e-abe7-471c-af38-5ec5019389ce")
+		(effects
+			(font
+				(size 0.8 1)
+				(thickness 0.2)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "CP"
+		(at 86.5 111.6 0)
+		(layer "F.SilkS")
+		(uuid "01ef06bc-2c31-4bab-8bfb-54274b0e23a3")
+		(effects
+			(font
+				(size 0.8 1)
+				(thickness 0.2)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "D1N"
+		(at 89.2 107.7 0)
+		(layer "F.SilkS")
+		(uuid "d5baceb1-97e6-4831-ad55-5d22804cf602")
+		(effects
+			(font
+				(size 0.8 1)
+				(thickness 0.2)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "CN"
+		(at 89.3 111.4 0)
+		(layer "F.SilkS")
+		(uuid "29ca5c7d-5a14-4d0e-a6d7-66095e4088fc")
+		(effects
+			(font
+				(size 0.8 1)
+				(thickness 0.2)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "RST"
+		(at 90.8 92.9 0)
+		(layer "F.SilkS")
+		(uuid "27588abd-71cf-48ef-a2a1-d87c5f46c965")
+		(effects
+			(font
+				(size 0.8 1)
+				(thickness 0.2)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "TE"
+		(at 91.8 89.8 0)
+		(layer "F.SilkS")
+		(uuid "0e68860e-f0c4-4662-8ef5-bc0ac201da58")
+		(effects
+			(font
+				(size 0.8 1)
+				(thickness 0.2)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "D1P"
+		(at 93.3 105.8 0)
+		(layer "F.SilkS")
+		(uuid "a19e4613-dc64-4981-ac2d-d395a0fecef9")
+		(effects
+			(font
+				(size 0.8 1)
+				(thickness 0.2)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "Disco TFT Adapter\nRev. A"
 		(at 153.8 143.7 0)
 		(layer "B.SilkS")
